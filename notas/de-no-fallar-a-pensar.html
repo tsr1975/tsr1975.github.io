@@ -52,12 +52,16 @@ h2{font-family:var(--mono);font-size:14px;color:var(--muted);font-weight:500;mar
 .kind{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;padding:2px 8px;border-radius:999px;flex-shrink:0}
 .kind.martes{color:var(--amber);background:#2a1e10}.kind.jueves{color:var(--blue);background:#10202e}.kind.taller{color:var(--green);background:#15211a}.kind.noticia{color:#D2A8FF;background:#1d1630}
 .kind.agente{color:var(--blue);background:#10202e}.kind.on{color:var(--green);background:#15211a}
-.agentes{display:flex;flex-direction:column;gap:14px;margin:6px 0}
-.agente{border:1px solid var(--border);border-radius:12px;padding:16px 18px;background:#10151d}
-.aghead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-.agnombre{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--ink2)}
-.agrol{color:var(--muted);font-size:14px}
-.agque{margin:8px 0 12px;color:var(--ink)}
+.agentes{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:8px 0}
+.agente{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:12px;padding:18px;background:#10151d}
+.agarea{align-self:flex-start;font-family:var(--mono);font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--blue);background:#10202e;border-radius:999px;padding:3px 9px;margin-bottom:12px}
+.aghead{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.agavatar{width:56px;height:56px;border-radius:50%;object-fit:cover;border:1px solid var(--border);flex-shrink:0}
+.aghtext{min-width:0}
+.agnombre{font-family:var(--mono);font-size:17px;font-weight:700;color:var(--ink2);display:block}
+.agrol{font-style:italic;color:var(--blue);font-size:13px}
+.agque{margin:0 0 14px;color:var(--ink);font-size:15px}
+.agsep{border:none;border-top:1px dashed var(--border);margin:auto 0 12px}
 .agchips{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .agdesde{font-family:var(--mono);font-size:11px;color:var(--muted)}
 .agtaller{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:13px}

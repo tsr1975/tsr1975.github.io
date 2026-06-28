@@ -51,12 +51,16 @@ h2{font-family:var(--mono);font-size:14px;color:var(--muted);font-weight:500;mar
 .kind{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;padding:2px 8px;border-radius:999px;flex-shrink:0}
 .kind.martes{color:var(--amber);background:#2a1e10}.kind.jueves{color:var(--blue);background:#10202e}.kind.taller{color:var(--green);background:#15211a}.kind.noticia{color:#D2A8FF;background:#1d1630}
 .kind.agente{color:var(--blue);background:#10202e}.kind.on{color:var(--green);background:#15211a}
-.agentes{display:flex;flex-direction:column;gap:14px;margin:6px 0}
-.agente{border:1px solid var(--border);border-radius:12px;padding:16px 18px;background:#10151d}
-.aghead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-.agnombre{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--ink2)}
-.agrol{color:var(--muted);font-size:14px}
-.agque{margin:8px 0 12px;color:var(--ink)}
+.agentes{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:8px 0}
+.agente{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:12px;padding:18px;background:#10151d}
+.agarea{align-self:flex-start;font-family:var(--mono);font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--blue);background:#10202e;border-radius:999px;padding:3px 9px;margin-bottom:12px}
+.aghead{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.agavatar{width:56px;height:56px;border-radius:50%;object-fit:cover;border:1px solid var(--border);flex-shrink:0}
+.aghtext{min-width:0}
+.agnombre{font-family:var(--mono);font-size:17px;font-weight:700;color:var(--ink2);display:block}
+.agrol{font-style:italic;color:var(--blue);font-size:13px}
+.agque{margin:0 0 14px;color:var(--ink);font-size:15px}
+.agsep{border:none;border-top:1px dashed var(--border);margin:auto 0 12px}
 .agchips{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .agdesde{font-family:var(--mono);font-size:11px;color:var(--muted)}
 .agtaller{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:13px}
@@ -138,10 +142,10 @@ h2{font-family:var(--mono);font-size:14px;color:var(--muted);font-weight:500;mar
     <h1>Mis agentes</h1>
     <p class="lead">El equipo que sostiene esto entre bambalinas. Lo que cuento, lo uso.</p>
     <div class="agentes">
-<div class="agente"><div class="aghead"><span class="agnombre">Bragi</span><span class="agrol">Redactor en mi voz</span></div><p class="agque">Dado un tema, investiga y deja un borrador escrito con mi criterio y mi estilo, listo para que yo solo revise y publique. Las Notas, el Taller y las noticias salen de aquí.</p><div class="agchips"><span class="kind agente">a demanda</span><span class="kind on">en producción</span><span class="agdesde">desde junio 2026</span></div><a class="agtaller" data-umami-event="agente-taller" href="/taller/equipo-agentes-noche/">Cómo lo monté →</a></div>
-<div class="agente"><div class="aghead"><span class="agnombre">Iris</span><span class="agrol">Vigía de noticias de IA</span></div><p class="agque">Cada día revisa las fuentes oficiales de IA, filtra lo relevante y me propone un rádar de candidatas. Yo elijo cuál se publica, comentada con mi lectura, en la sección de noticias.</p><div class="agchips"><span class="kind agente">diario</span><span class="kind on">en producción</span><span class="agdesde">desde junio 2026</span></div></div>
-<div class="agente"><div class="aghead"><span class="agnombre">Fama</span><span class="agrol">Métricas de la marca</span></div><p class="agque">Cada mañana mide la visibilidad de la web y me deja el resumen del día anterior, para decidir con datos en vez de con la memoria.</p><div class="agchips"><span class="kind agente">diario</span><span class="kind on">en producción</span><span class="agdesde">desde junio 2026</span></div></div>
-<div class="agente"><div class="aghead"><span class="agnombre">Eos</span><span class="agrol">Publicación de la web</span></div><p class="agque">Cada mañana se asegura de que la web del día queda publicada a tiempo, antes del resto, sin que yo tenga que tocar nada.</p><div class="agchips"><span class="kind agente">diario</span><span class="kind on">en producción</span><span class="agdesde">desde junio 2026</span></div></div>
+<div class="agente"><span class="agarea">Contenido</span><div class="aghead"><img class="agavatar" src="/agentes/bragi.png" alt="Bragi"><div class="aghtext"><span class="agnombre">Bragi</span><span class="agrol">Redactor en mi voz</span></div></div><p class="agque">Dado un tema, investiga y deja un borrador escrito con mi criterio y mi estilo, listo para que yo solo revise y publique. Las Notas, el Taller y las noticias salen de aquí.</p><hr class="agsep"><div class="agchips"><span class="kind agente">a demanda</span><span class="kind on">en producción</span><span class="agdesde">desde junio 2026</span></div><a class="agtaller" data-umami-event="agente-taller" href="/taller/equipo-agentes-noche/">Cómo lo monté →</a></div>
+<div class="agente"><span class="agarea">Contenido</span><div class="aghead"><img class="agavatar" src="/agentes/iris.png" alt="Iris"><div class="aghtext"><span class="agnombre">Iris</span><span class="agrol">Vigía de noticias de IA</span></div></div><p class="agque">Cada día revisa las fuentes oficiales de IA, filtra lo relevante y me propone un rádar de candidatas. Yo elijo cuál se publica, comentada con mi lectura, en la sección de noticias.</p><hr class="agsep"><div class="agchips"><span class="kind agente">diario</span><span class="kind on">en producción</span><span class="agdesde">desde junio 2026</span></div></div>
+<div class="agente"><span class="agarea">Métricas</span><div class="aghead"><img class="agavatar" src="/agentes/fama.png" alt="Fama"><div class="aghtext"><span class="agnombre">Fama</span><span class="agrol">Métricas de la marca</span></div></div><p class="agque">Cada mañana mide la visibilidad de la web y me deja el resumen del día anterior, para decidir con datos en vez de con la memoria.</p><hr class="agsep"><div class="agchips"><span class="kind agente">diario</span><span class="kind on">en producción</span><span class="agdesde">desde junio 2026</span></div></div>
+<div class="agente"><span class="agarea">Operación</span><div class="aghead"><img class="agavatar" src="/agentes/eos.png" alt="Eos"><div class="aghtext"><span class="agnombre">Eos</span><span class="agrol">Publicación de la web</span></div></div><p class="agque">Cada mañana se asegura de que la web del día queda publicada a tiempo, antes del resto, sin que yo tenga que tocar nada.</p><hr class="agsep"><div class="agchips"><span class="kind agente">diario</span><span class="kind on">en producción</span><span class="agdesde">desde junio 2026</span></div></div>
 </div>
 <footer class="sitefoot">¿Hablamos? · <a href="https://www.linkedin.com/in/toni-serrano-3693667/" data-umami-event="foot-linkedin">LinkedIn</a> · <a class="mailto" data-u="hola" data-d="toniserrano.com" href="#" data-umami-event="foot-email">hola [at] toniserrano [dot] com</a></footer>
   </div></main>
