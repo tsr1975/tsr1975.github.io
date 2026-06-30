@@ -2,23 +2,24 @@
 <html lang="es"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="pBqv9cSP0C9nKLLK-nbVwIccnmWPPojA-Sd5ncM2fsM">
-<title>Notas — Toni Serrano</title>
-<meta name="description" content="Notas de Toni Serrano: el problema (martes) y el marco (jueves). Criterio de IT, IA aplicada y gobierno, sin humo.">
-<link rel="canonical" href="https://toniserrano.com/notas/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Notas — Toni Serrano">
-<meta property="og:description" content="Notas de Toni Serrano: el problema (martes) y el marco (jueves). Criterio de IT, IA aplicada y gobierno, sin humo.">
-<meta property="og:url" content="https://toniserrano.com/notas/">
+<title>Google mete el &quot;computer use&quot; en Gemini 3.5 Flash: los agentes de escritorio ya son API — Toni Serrano</title>
+<meta name="description" content="Google mete el &quot;computer use&quot; en Gemini 3.5 Flash: los agentes de escritorio ya son API">
+<link rel="canonical" href="https://toniserrano.com/noticias/google-mete-el-computer-use-en-gemini-3-5-flash-los-agentes-.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Google mete el &quot;computer use&quot; en Gemini 3.5 Flash: los agentes de escritorio ya son API — Toni Serrano">
+<meta property="og:description" content="Google mete el &quot;computer use&quot; en Gemini 3.5 Flash: los agentes de escritorio ya son API">
+<meta property="og:url" content="https://toniserrano.com/noticias/google-mete-el-computer-use-en-gemini-3-5-flash-los-agentes-.html">
 <meta property="og:image" content="https://toniserrano.com/apple-touch-icon.png">
 <meta property="og:site_name" content="Toni Serrano">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Notas — Toni Serrano">
-<meta name="twitter:description" content="Notas de Toni Serrano: el problema (martes) y el marco (jueves). Criterio de IT, IA aplicada y gobierno, sin humo.">
+<meta name="twitter:title" content="Google mete el &quot;computer use&quot; en Gemini 3.5 Flash: los agentes de escritorio ya son API — Toni Serrano">
+<meta name="twitter:description" content="Google mete el &quot;computer use&quot; en Gemini 3.5 Flash: los agentes de escritorio ya son API">
 <meta name="twitter:image" content="https://toniserrano.com/apple-touch-icon.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <script defer src="https://argus.taildaa0e7.ts.net/script.js" data-website-id="e50f99f9-f9be-47b2-ae64-115db6eef455"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Google mete el \"computer use\" en Gemini 3.5 Flash: los agentes de escritorio ya son API", "datePublished": "2026-06-30", "dateModified": "2026-06-30", "author": {"@type": "Person", "name": "Toni Serrano Rubio", "url": "https://toniserrano.com"}, "publisher": {"@type": "Person", "name": "Toni Serrano Rubio"}, "image": "https://toniserrano.com/apple-touch-icon.png", "url": "https://toniserrano.com/noticias/google-mete-el-computer-use-en-gemini-3-5-flash-los-agentes-.html", "mainEntityOfPage": "https://toniserrano.com/noticias/google-mete-el-computer-use-en-gemini-3-5-flash-los-agentes-.html"}</script>
 <style>
 :root{--bg:#0D1117;--side:#161B22;--border:#222831;--ink:#c9d2dc;--ink2:#e6edf3;--muted:#8b949e;--green:#7EE787;--amber:#FFA657;--blue:#79C0FF;--link:#79C0FF;--mono:"SF Mono","JetBrains Mono",Menlo,Consolas,monospace;--sans:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 *{box-sizing:border-box}
@@ -132,7 +133,7 @@ h2{font-family:var(--mono);font-size:14px;color:var(--muted);font-weight:500;mar
       <a class="nm" href="/">Toni Serrano</a>
     </div>
     <ul class="nav">
-      <li><a class="" data-umami-event="nav-inicio" href="/">Inicio</a></li><li><a class="active" data-umami-event="nav-notas" href="/notas/">Notas</a></li><li><a class="" data-umami-event="nav-taller" href="/taller/">Taller</a></li><li><a class="" data-umami-event="nav-noticias" href="/noticias/">Noticias</a></li><li><a class="" data-umami-event="nav-agentes" href="/agentes/">Agentes</a></li><li><a class="" data-umami-event="nav-sobre-mi" href="/sobre-mi/">Sobre mí</a></li>
+      <li><a class="" data-umami-event="nav-inicio" href="/">Inicio</a></li><li><a class="" data-umami-event="nav-notas" href="/notas/">Notas</a></li><li><a class="" data-umami-event="nav-taller" href="/taller/">Taller</a></li><li><a class="active" data-umami-event="nav-noticias" href="/noticias/">Noticias</a></li><li><a class="" data-umami-event="nav-agentes" href="/agentes/">Agentes</a></li><li><a class="" data-umami-event="nav-sobre-mi" href="/sobre-mi/">Sobre mí</a></li>
       <li class="sep">enlaces</li>
       <li><a href="https://www.linkedin.com/in/toni-serrano-3693667/" data-umami-event="nav-linkedin">LinkedIn ↗</a></li>
       <li><a href="https://x.com/toniserrano_it" data-umami-event="nav-x">X ↗</a></li>
@@ -140,14 +141,38 @@ h2{font-family:var(--mono);font-size:14px;color:var(--muted);font-weight:500;mar
     </ul>
   </aside>
   <main class="main"><div class="col">
-    <h1>Notas — cómo lo veo</h1>
-    <p class="lead">El problema (<span style="color:var(--amber)">martes</span>) y el marco (<span style="color:var(--blue)">jueves</span>), cada semana.</p>
-    <h3 class="month">Junio 2026</h3>
-<ul class="notelist">
-<li><span class="dom">30</span><span class="kind martes">martes</span><a class="ntitle" data-umami-event="open-nota" href="/notas/lo-que-no-esta-escrito.html">Lo que no está escrito no existe</a></li>
-<li><span class="dom">25</span><span class="kind jueves">jueves</span><a class="ntitle" data-umami-event="open-nota" href="/notas/empieza-por-el-problema.html">Empieza por el problema, no por la herramienta</a></li>
-<li><span class="dom">23</span><span class="kind martes">martes</span><a class="ntitle" data-umami-event="open-nota" href="/notas/de-no-fallar-a-pensar.html">De no fallar a pensar</a></li>
+    <p class="back"><a href="/noticias/">← Noticias</a></p>
+    <h1>Google mete el &quot;computer use&quot; en Gemini 3.5 Flash: los agentes de escritorio ya son API</h1>
+    <div class="nchips"><span class="kind noticia">30 junio 2026</span><span class="kind noticia">GOOGLE-DEEPMIND</span></div>
+    
+    <div class="body">
+<p>Google ha integrado el control de interfaces —browser, móvil, escritorio— directamente en Gemini 3.5 Flash. No como experimento de laboratorio: como herramienta disponible en producción vía API. ¿Estás listo para que un modelo de IA opere aplicaciones en nombre de tus usuarios?</p>
+<h2>Qué ha pasado</h2>
+<p>Google DeepMind anuncia que *computer use* —la capacidad de ver pantallas y ejecutar acciones sobre ellas— ya es una funcionalidad nativa en Gemini 3.5 Flash, accesible a través de la Gemini API y la Gemini Enterprise Agent Platform.</p>
+<p>[Fuente oficial: deepmind.google](https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/)</p>
+<ul>
+<li>Antes era una capacidad exclusiva de un modelo standalone (Gemini 2.5); ahora está integrada en el modelo Flash de uso general</li>
+<li>Cubre entornos browser, móvil y desktop, y está orientada a tareas de larga duración: testing continuo, automatización de knowledge work</li>
+<li>Incluye dos salvaguardas enterprise opcionales: confirmación explícita del usuario para acciones sensibles o irreversibles, y parada automática si se detecta un *prompt injection* indirecto</li>
 </ul>
+<h2>Por qué importa</h2>
+<p>Esto no es un chatbot más inteligente. Es un modelo que puede <strong>abrir aplicaciones, navegar, rellenar formularios y ejecutar flujos</strong> sin integración de API previa. Para IT, eso tiene dos lecturas:</p>
+<p><strong>La buena:</strong> automatizar procesos heredados sin tocar el backend —legacy, aplicaciones de escritorio, portales sin API— de repente es más accesible.</p>
+<p><strong>La que requiere atención:</strong> un agente con acceso a interfaces tiene acceso a datos, credenciales y acciones reales. La superficie de riesgo es distinta a la de un LLM que solo genera texto.</p>
+<p>Google lo sabe, por eso menciona explícitamente el riesgo de *prompt injection* en entornos en vivo y recomienda sandboxing + human-in-the-loop. Que lo digan en el anuncio de lanzamiento no es marketing: es que el riesgo es real y ya tienen que gestionarlo.</p>
+<h2>A tener en cuenta</h2>
+<table style="border-collapse:collapse;width:100%;margin:16px 0;font-size:14px">
+<thead><tr><th>Aspecto</th><th>Detalle</th></tr></thead>
+<tbody><tr><td>Disponibilidad</td><td>Gemini API + Gemini Enterprise Agent Platform, ahora</td></tr><tr><td>Entornos soportados</td><td>Browser, móvil, desktop</td></tr><tr><td>Casos de uso citados</td><td>Testing continuo, automatización de knowledge work</td></tr><tr><td>Riesgo principal</td><td>Prompt injection en entornos en vivo</td></tr><tr><td>Salvaguardas opcionales</td><td>Confirmación de usuario + parada ante injection detectada</td></tr><tr><td>Referencia de seguridad</td><td>Google publica documentación de buenas prácticas</td></tr></tbody>
+</table>
+<h2>Mi opinión</h2>
+<p>El hype dirá: &quot;¡Los agentes autónomos han llegado!&quot;. El criterio dice: lo que ha llegado es una capacidad que <strong>reduce la barrera técnica para construir agentes que interactúan con interfaces reales</strong>, y eso tiene implicaciones de gobierno que van por detrás de la velocidad del lanzamiento.</p>
+<p><strong>Recomendación concreta:</strong> si estás evaluando automatización de procesos que hoy dependen de RPA o de integración manual con aplicaciones legacy, este es un buen momento para abrir una prueba de concepto controlada. Pero hazlo con las salvaguardas activadas desde el día uno —sandboxing, human-in-the-loop y scope mínimo— no como añadido posterior.</p>
+<p>La tecnología ya no es el freno. El gobierno del agente, sí.</p>
+<p>---</p>
+<p>*¿Tienes identificados los procesos de tu organización donde un agente con acceso a interfaces podría actuar? Porque si no los tienes tú, alguien en tu equipo ya está pensando en conectarlos.*</p>
+    </div>
+    <a class="cta" data-umami-event="cta-noticia-fuente" href="https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/">Fuente oficial ↗</a>
 <footer class="sitefoot">¿Hablamos? · <a href="https://www.linkedin.com/in/toni-serrano-3693667/" data-umami-event="foot-linkedin">LinkedIn</a> · <a class="mailto" data-u="hola" data-d="toniserrano.com" href="#" data-umami-event="foot-email">hola [at] toniserrano [dot] com</a></footer>
   </div></main>
 </div>
