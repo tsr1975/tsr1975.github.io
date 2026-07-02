@@ -2,23 +2,24 @@
 <html lang="es"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="pBqv9cSP0C9nKLLK-nbVwIccnmWPPojA-Sd5ncM2fsM">
-<title>Notas — Toni Serrano</title>
-<meta name="description" content="Notas de Toni Serrano: el problema (martes) y el marco (jueves). Criterio de IT, IA aplicada y gobierno, sin humo.">
-<link rel="canonical" href="https://toniserrano.com/notas/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Notas — Toni Serrano">
-<meta property="og:description" content="Notas de Toni Serrano: el problema (martes) y el marco (jueves). Criterio de IT, IA aplicada y gobierno, sin humo.">
-<meta property="og:url" content="https://toniserrano.com/notas/">
-<meta property="og:image" content="https://toniserrano.com/apple-touch-icon.png">
+<title>Tu «IA interna» falla por el contexto, no por el modelo — Toni Serrano</title>
+<meta name="description" content="“Le hemos puesto IA y responde regular.” Casi nunca es culpa del modelo. 🧩">
+<link rel="canonical" href="https://toniserrano.com/notas/ia-interna-contexto.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tu «IA interna» falla por el contexto, no por el modelo — Toni Serrano">
+<meta property="og:description" content="“Le hemos puesto IA y responde regular.” Casi nunca es culpa del modelo. 🧩">
+<meta property="og:url" content="https://toniserrano.com/notas/ia-interna-contexto.html">
+<meta property="og:image" content="https://toniserrano.com/notas/ia-interna-contexto.png">
 <meta property="og:site_name" content="Toni Serrano">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Notas — Toni Serrano">
-<meta name="twitter:description" content="Notas de Toni Serrano: el problema (martes) y el marco (jueves). Criterio de IT, IA aplicada y gobierno, sin humo.">
-<meta name="twitter:image" content="https://toniserrano.com/apple-touch-icon.png">
+<meta name="twitter:title" content="Tu «IA interna» falla por el contexto, no por el modelo — Toni Serrano">
+<meta name="twitter:description" content="“Le hemos puesto IA y responde regular.” Casi nunca es culpa del modelo. 🧩">
+<meta name="twitter:image" content="https://toniserrano.com/notas/ia-interna-contexto.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <script defer src="https://argus.taildaa0e7.ts.net/script.js" data-website-id="e50f99f9-f9be-47b2-ae64-115db6eef455"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Tu «IA interna» falla por el contexto, no por el modelo", "datePublished": "2026-07-02", "dateModified": "2026-07-02", "author": {"@type": "Person", "name": "Toni Serrano Rubio", "url": "https://toniserrano.com"}, "publisher": {"@type": "Person", "name": "Toni Serrano Rubio"}, "image": "https://toniserrano.com/notas/ia-interna-contexto.png", "url": "https://toniserrano.com/notas/ia-interna-contexto.html", "mainEntityOfPage": "https://toniserrano.com/notas/ia-interna-contexto.html"}</script>
 <style>
 :root{--bg:#0D1117;--side:#161B22;--border:#222831;--ink:#c9d2dc;--ink2:#e6edf3;--muted:#8b949e;--green:#7EE787;--amber:#FFA657;--blue:#79C0FF;--link:#79C0FF;--mono:"SF Mono","JetBrains Mono",Menlo,Consolas,monospace;--sans:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 *{box-sizing:border-box}
@@ -140,18 +141,21 @@ h2{font-family:var(--mono);font-size:14px;color:var(--muted);font-weight:500;mar
     </ul>
   </aside>
   <main class="main"><div class="col">
-    <h1>Notas — cómo lo veo</h1>
-    <p class="lead">El problema (<span style="color:var(--amber)">martes</span>) y el marco (<span style="color:var(--blue)">jueves</span>), cada semana.</p>
-    <h3 class="month">Julio 2026</h3>
-<ul class="notelist">
-<li><span class="dom">02</span><span class="kind jueves">jueves</span><a class="ntitle" data-umami-event="open-nota" href="/notas/ia-interna-contexto.html">Tu «IA interna» falla por el contexto, no por el modelo</a></li>
-</ul>
-<h3 class="month">Junio 2026</h3>
-<ul class="notelist">
-<li><span class="dom">30</span><span class="kind martes">martes</span><a class="ntitle" data-umami-event="open-nota" href="/notas/lo-que-no-esta-escrito.html">Lo que no está escrito no existe</a></li>
-<li><span class="dom">25</span><span class="kind jueves">jueves</span><a class="ntitle" data-umami-event="open-nota" href="/notas/empieza-por-el-problema.html">Empieza por el problema, no por la herramienta</a></li>
-<li><span class="dom">23</span><span class="kind martes">martes</span><a class="ntitle" data-umami-event="open-nota" href="/notas/de-no-fallar-a-pensar.html">De no fallar a pensar</a></li>
-</ul>
+    <p class="back"><a href="/notas/">← Notas</a></p>
+    <h1>Tu «IA interna» falla por el contexto, no por el modelo</h1>
+    <p class="meta">jueves · 2 de julio de 2026</p>
+    <img class="noteimg" src="ia-interna-contexto.png" alt="Tu «IA interna» falla por el contexto, no por el modelo">
+    <div class="body">
+<p>“Le hemos puesto IA y responde regular.” Casi nunca es culpa del modelo. 🧩</p>
+<p>La mayoría de asistentes internos no fallan por la IA. Fallan porque no tienen contexto: la información de la empresa está dispersa, desactualizada o directamente en la cabeza de alguien.</p>
+<p>Un modelo, por potente que sea, solo sabe lo que le das. Si le das caos, te responde caos con total seguridad (que es lo peligroso).</p>
+<p>Por eso, antes de montar “el ChatGPT de tu empresa”, la pregunta no es qué modelo usar, sino:<br>• ¿Existe el conocimiento escrito en algún sitio?<br>• ¿Está actualizado y es fiable?<br>• ¿Sabemos de dónde sale cada respuesta? (trazabilidad)</p>
+<p>La técnica que conecta el modelo con TU información (RAG) es hoy bastante accesible. Lo difícil —y lo que de verdad marca la diferencia— es tener la casa ordenada para que beba de ahí.</p>
+<p>La IA no sustituye al trabajo de ordenar el conocimiento. Lo recompensa.</p>
+<p>¿En tu organización el conocimiento está escrito y accesible, o vive en cabezas?</p>
+<p class="tags">#InteligenciaArtificial #RAG #GestiónDelConocimiento #TransformaciónDigital</p>
+    </div>
+    <a class="cta" data-umami-event="cta-post-linkedin" href="https://www.linkedin.com/in/toni-serrano-3693667/">Coméntalo en LinkedIn ↗</a>
 <footer class="sitefoot">¿Hablamos? · <a href="https://www.linkedin.com/in/toni-serrano-3693667/" data-umami-event="foot-linkedin">LinkedIn</a> · <a class="mailto" data-u="hola" data-d="toniserrano.com" href="#" data-umami-event="foot-email">hola [at] toniserrano [dot] com</a></footer>
   </div></main>
 </div>
