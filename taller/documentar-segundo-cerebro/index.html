@@ -2,23 +2,24 @@
 <html lang="es"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="pBqv9cSP0C9nKLLK-nbVwIccnmWPPojA-Sd5ncM2fsM">
-<title>Taller — Toni Serrano</title>
-<meta name="description" content="Taller de Toni Serrano: cómo lo monto, paso a paso (build-in-public). Casos reales de IT, automatización e IA aplicada.">
-<link rel="canonical" href="https://toniserrano.com/taller/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Taller — Toni Serrano">
-<meta property="og:description" content="Taller de Toni Serrano: cómo lo monto, paso a paso (build-in-public). Casos reales de IT, automatización e IA aplicada.">
-<meta property="og:url" content="https://toniserrano.com/taller/">
-<meta property="og:image" content="https://toniserrano.com/apple-touch-icon.png">
+<title>Cómo documento para no depender de mi memoria — Toni Serrano</title>
+<meta name="description" content="Mi sistema para que el conocimiento no viva en mi cabeza (con RAG).">
+<link rel="canonical" href="https://toniserrano.com/taller/documentar-segundo-cerebro/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cómo documento para no depender de mi memoria — Toni Serrano">
+<meta property="og:description" content="Mi sistema para que el conocimiento no viva en mi cabeza (con RAG).">
+<meta property="og:url" content="https://toniserrano.com/taller/documentar-segundo-cerebro/">
+<meta property="og:image" content="https://toniserrano.com/taller/documentar-segundo-cerebro/hero.png">
 <meta property="og:site_name" content="Toni Serrano">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Taller — Toni Serrano">
-<meta name="twitter:description" content="Taller de Toni Serrano: cómo lo monto, paso a paso (build-in-public). Casos reales de IT, automatización e IA aplicada.">
-<meta name="twitter:image" content="https://toniserrano.com/apple-touch-icon.png">
+<meta name="twitter:title" content="Cómo documento para no depender de mi memoria — Toni Serrano">
+<meta name="twitter:description" content="Mi sistema para que el conocimiento no viva en mi cabeza (con RAG).">
+<meta name="twitter:image" content="https://toniserrano.com/taller/documentar-segundo-cerebro/hero.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <script defer src="https://argus.taildaa0e7.ts.net/script.js" data-website-id="e50f99f9-f9be-47b2-ae64-115db6eef455"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Cómo documento para no depender de mi memoria", "datePublished": "2026-07-04", "dateModified": "2026-07-04", "author": {"@type": "Person", "name": "Toni Serrano Rubio", "url": "https://toniserrano.com"}, "publisher": {"@type": "Person", "name": "Toni Serrano Rubio"}, "image": "https://toniserrano.com/taller/documentar-segundo-cerebro/hero.png", "url": "https://toniserrano.com/taller/documentar-segundo-cerebro/", "mainEntityOfPage": "https://toniserrano.com/taller/documentar-segundo-cerebro/"}</script>
 <style>
 :root{--bg:#0D1117;--side:#161B22;--border:#222831;--ink:#c9d2dc;--ink2:#e6edf3;--muted:#8b949e;--green:#7EE787;--amber:#FFA657;--blue:#79C0FF;--link:#79C0FF;--mono:"SF Mono","JetBrains Mono",Menlo,Consolas,monospace;--sans:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 *{box-sizing:border-box}
@@ -140,12 +141,47 @@ h2{font-family:var(--mono);font-size:14px;color:var(--muted);font-weight:500;mar
     </ul>
   </aside>
   <main class="main"><div class="col">
-    <h1>Taller — cómo lo monto</h1>
-    <p class="lead">Casos reales, paso a paso (build-in-public). Cada <span style="color:var(--green)">sábado</span>.</p>
-    <div class="tcards">
-<div class="tcard"><span class="k">taller</span><a data-umami-event="open-taller" href="/taller/documentar-segundo-cerebro/"><h4>Cómo documento para no depender de mi memoria</h4></a><p>Mi sistema para que el conocimiento no viva en mi cabeza (con RAG).</p><div class="meta">6 min · <span class="real">probado en real</span></div></div>
-<div class="tcard"><span class="k">taller</span><a data-umami-event="open-taller" href="/taller/equipo-agentes-noche/"><h4>Mi equipo de agentes que trabaja de noche</h4></a><p>Cómo monté un equipo de agentes que me prepara el día mientras duermo.</p><div class="meta">6 min · <span class="real">probado en real</span></div></div>
+<p class="back"><a href="/taller/">← Taller</a></p>
+<span class="tag-taller">TALLER · cómo lo monto</span>
+<p class="artmeta">6 min de lectura · sábado 4 de julio de 2026 · <span class="real">probado en real</span></p>
+<h1>Cómo documento para no depender de mi memoria</h1>
+
+<img class="noteimg" src="hero.png" alt="Documento para encontrar, no para guardar">
+
+<p class="intro">Hubo una época en que yo era el cuello de botella. Cómo se montó aquello, por qué decidimos esto, cómo se resolvió la incidencia rara… todo vivía en un solo sitio: mi cabeza. Y mi cabeza ni se consulta a las tres de la madrugada ni viene a la oficina cuando estoy de vacaciones.</p>
+
+<div class="art">
+<h2>el problema</h2>
+<p>Documentar suena de maravilla hasta que toca hacerlo. Escribes un documento precioso, lo guardas en una carpeta… y no lo vuelve a abrir nadie, tú incluido.</p>
+<p>El conocimiento se queda enterrado: existe, pero no lo encuentras cuando lo necesitas. Y lo que no se encuentra es como si no existiera. Resultado de siempre: todo el mundo preguntándome a mí, y yo de punto único de fallo.</p>
+
+<h2>qué monté</h2>
+<p>Le di la vuelta a la pregunta. En vez de "cómo guardo mejor", me pregunté "cómo lo <em>encuentro</em> mejor".</p>
+<p>Monté un sistema donde escribo notas sencillas y luego le <strong>pregunto a mi propia documentación</strong> en lenguaje natural —como a un compañero que se lo ha leído todo— y me responde citando mis notas. Un segundo cerebro que de verdad puedo consultar.</p>
+<img class="noteimg" src="consulta.png" alt="Le pregunto a mi documentación y me responde citando mis notas">
+
+<h2>cómo lo hice</h2>
+<p>Nada exótico, otra vez piezas estándar bien combinadas:</p>
+<ul>
+  <li>Escribo en <strong>Markdown</strong> plano (vault de <strong>Obsidian</strong>), versionado en <strong>Git</strong>. Si mañana cambio de herramienta, mis notas se vienen conmigo.</li>
+  <li>Un proceso parte cada nota en trozos, los convierte en vectores (<em>embeddings</em>) y los guarda en <strong>Qdrant</strong>, una base de datos que busca por significado, no por palabra exacta.</li>
+  <li>Cuando pregunto, busca los trozos más parecidos y se los pasa a un modelo (<strong>Ollama</strong> en local para el día a día; algo más potente vía <strong>LiteLLM</strong> cuando la pregunta lo pide) que redacta la respuesta con esos trozos delante. Esto es <strong>RAG</strong>: el modelo no se inventa, responde con lo que yo escribí.</li>
+  <li>Un <strong>cron</strong> reindexa de noche, así lo nuevo entra solo.</li>
+</ul>
+<img class="noteimg" src="flujo.png" alt="Flujo: nota → embeddings → Qdrant → pregunta → modelo → respuesta">
+<p>La clave no fue el RAG. Fue <strong>bajar el listón de documentar</strong>: si escribir una nota me cuesta más de dos minutos, no la escribo. Markdown plano, sin plantillas eternas, sin "rellenar campos".</p>
+
+<div class="callout">Documentar no es escribir para un cajón. Es dejar tu conocimiento de forma que tu yo de dentro de seis meses —o quien te sustituya— lo encuentre en diez segundos.</div>
+
+<h2>el resultado</h2>
+<p>Hoy encuentro en segundos lo que antes reconstruía de memoria o rebuscaba en correos de hace un año. Y dejo de ser el punto único de fallo: el conocimiento está fuera de mi cabeza, escrito y consultable. Si mañana no estoy, el sistema responde igual.</p>
+
+<h2>qué aprendí</h2>
+<p>Que la mejor documentación no es la más completa: es la que se consulta. Un manual perfecto que nadie abre no sirve de nada. Si te cuesta encontrar lo que tú mismo escribiste, no tienes un problema de memoria: tienes un problema de búsqueda. Empieza por ahí.</p>
+
+<a class="cta" data-umami-event="cta-taller-linkedin" href="https://www.linkedin.com/in/toni-serrano-3693667/">Coméntalo en LinkedIn ↗</a>
 </div>
+
 <footer class="sitefoot">¿Hablamos? · <a href="https://www.linkedin.com/in/toni-serrano-3693667/" data-umami-event="foot-linkedin">LinkedIn</a> · <a class="mailto" data-u="hola" data-d="toniserrano.com" href="#" data-umami-event="foot-email">hola [at] toniserrano [dot] com</a></footer>
   </div></main>
 </div>
