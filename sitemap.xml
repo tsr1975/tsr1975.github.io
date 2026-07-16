@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://toniserrano.com/</loc><lastmod>2026-07-15</lastmod><priority>1.0</priority></url>
-  <url><loc>https://toniserrano.com/notas/</loc><lastmod>2026-07-15</lastmod><priority>0.8</priority></url>
-  <url><loc>https://toniserrano.com/taller/</loc><lastmod>2026-07-15</lastmod><priority>0.8</priority></url>
-  <url><loc>https://toniserrano.com/noticias/</loc><lastmod>2026-07-15</lastmod><priority>0.8</priority></url>
-  <url><loc>https://toniserrano.com/sobre-mi/</loc><lastmod>2026-07-15</lastmod><priority>0.6</priority></url>
-  <url><loc>https://toniserrano.com/agentes/</loc><lastmod>2026-07-15</lastmod><priority>0.6</priority></url>
+  <url><loc>https://toniserrano.com/</loc><lastmod>2026-07-16</lastmod><priority>1.0</priority></url>
+  <url><loc>https://toniserrano.com/notas/</loc><lastmod>2026-07-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://toniserrano.com/taller/</loc><lastmod>2026-07-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://toniserrano.com/noticias/</loc><lastmod>2026-07-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://toniserrano.com/sobre-mi/</loc><lastmod>2026-07-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://toniserrano.com/agentes/</loc><lastmod>2026-07-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://toniserrano.com/notas/de-no-fallar-a-pensar.html</loc><lastmod>2026-06-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://toniserrano.com/notas/empieza-por-el-problema.html</loc><lastmod>2026-06-25</lastmod><priority>0.7</priority></url>
   <url><loc>https://toniserrano.com/notas/lo-que-no-esta-escrito.html</loc><lastmod>2026-06-30</lastmod><priority>0.7</priority></url>
@@ -13,6 +13,7 @@
   <url><loc>https://toniserrano.com/notas/por-que-se-hace-asi.html</loc><lastmod>2026-07-07</lastmod><priority>0.7</priority></url>
   <url><loc>https://toniserrano.com/notas/build-vs-buy.html</loc><lastmod>2026-07-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://toniserrano.com/notas/barrera-personas.html</loc><lastmod>2026-07-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://toniserrano.com/notas/la-adopcion.html</loc><lastmod>2026-07-16</lastmod><priority>0.7</priority></url>
   <url><loc>https://toniserrano.com/taller/equipo-agentes-noche/</loc><lastmod>2026-06-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://toniserrano.com/taller/documentar-segundo-cerebro/</loc><lastmod>2026-07-04</lastmod><priority>0.7</priority></url>
   <url><loc>https://toniserrano.com/taller/build-vs-buy-monto/</loc><lastmod>2026-07-11</lastmod><priority>0.7</priority></url>
