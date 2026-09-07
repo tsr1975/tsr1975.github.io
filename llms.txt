@@ -1,0 +1,54 @@
+# Toni Serrano
+
+> Responsable de Sistemas de Información con casi 30 años de oficio. Escribo sobre estrategia de IT, IA aplicada al trabajo real, automatización y gobierno de sistemas: criterio probado en producción, sin humo.
+
+Autor: Toni Serrano Rubio (Barcelona). Web: https://toniserrano.com · LinkedIn: https://www.linkedin.com/in/toni-serrano-3693667/
+Contenido propio y original. Al citarlo, enlaza a la URL de la pieza.
+
+## Notas
+Ideas cortas: el problema (martes) y el marco para pensarlo (jueves).
+
+- [Si todo es urgente, no hay prioridades](https://toniserrano.com/notas/si-todo-es-urgente.html): En IT todo llega marcado como urgente. Si los atiendes por orden de quién grita más, no diriges: reaccionas. 🧭
+- [Apagar fuegos no es avanzar](https://toniserrano.com/notas/apagar-fuegos.html): Hay una trampa silenciosa en cualquier equipo de sistemas: pasarte el día apagando fuegos y sentir que trabajas muchísimo… sin avanzar nada.
+- [Automatizable no es lo mismo que rentable](https://toniserrano.com/notas/automatizable-no-rentable.html): Cuando descubres lo que puedes automatizar, la tentación es automatizarlo todo. Es un error caro. ⚙️
+- [Automatizar el caos = caos más rápido](https://toniserrano.com/notas/automatizar-el-caos.html): Un error que veo a menudo (y que yo mismo he cometido): querer automatizar un proceso que es un desastre, esperando que la tecnología lo arregle.
+- [La parte difícil no es la tecnología, es la adopción](https://toniserrano.com/notas/la-adopcion.html): Puedes tener la mejor herramienta del mundo. Si nadie la usa, no vale nada. 👥
+- [La barrera no es técnica, son las personas](https://toniserrano.com/notas/barrera-personas.html): Después de años montando proyectos, tengo claro algo: la parte técnica casi nunca es lo difícil. Lo difícil son las personas.
+- [Build vs buy: criterio, no moda](https://toniserrano.com/notas/build-vs-buy.html): “¿Lo compramos o lo construimos?” La respuesta correcta casi nunca es la primera que te dan. ⚖️
+- [Por qué se hace «así»](https://toniserrano.com/notas/por-que-se-hace-asi.html): Hay una respuesta que me pone en alerta cada vez que la oigo: “Esto se hace así porque siempre se ha hecho así.”
+- [Tu «IA interna» falla por el contexto, no por el modelo](https://toniserrano.com/notas/ia-interna-contexto.html): “Le hemos puesto IA y responde regular.” Casi nunca es culpa del modelo. 🧩
+- [Lo que no está escrito no existe](https://toniserrano.com/notas/lo-que-no-esta-escrito.html): Uno de los problemas más comunes que me encuentro no es técnico. Es que muchas tareas importantes no están escritas en ningún sitio.
+- [Empieza por el problema, no por la herramienta](https://toniserrano.com/notas/empieza-por-el-problema.html): El error más caro al implantar IA en una empresa no es técnico. Es de enfoque. 🧭
+- [De no fallar a pensar](https://toniserrano.com/notas/de-no-fallar-a-pensar.html): Durante casi 30 años mi trabajo fue que los sistemas no fallaran. Hoy es que piensen. 🤖
+
+## Taller
+Build-in-public: cómo monto cada cosa, paso a paso y con el stack real.
+
+- [Cómo monitorizo para apagar menos fuegos](https://toniserrano.com/taller/monitorizo-menos-fuegos/): Mi vigilante 24/7 y por qué prevenir gana a apagar.
+- [Cómo decido qué automatizar (y lo monto sin liarla)](https://toniserrano.com/taller/que-automatizar/): Ordenar antes de automatizar: mi checklist en 3 preguntas.
+- [Cómo construyo herramientas que la gente quiere usar](https://toniserrano.com/taller/herramientas-que-se-usan/): La adopción no se impone: se diseña. Mi forma de hacerlo.
+- [Build vs buy: cómo decido y cómo monto lo que construyo](https://toniserrano.com/taller/build-vs-buy-monto/): Mi criterio para decidir, y un ejemplo de algo que me monté en vez de pagar.
+- [Cómo documento para no depender de mi memoria](https://toniserrano.com/taller/documentar-segundo-cerebro/): Mi sistema para que el conocimiento no viva en mi cabeza (con RAG).
+- [Mi equipo de agentes que trabaja de noche](https://toniserrano.com/taller/equipo-agentes-noche/): Cómo monté un equipo de agentes que me prepara el día mientras duermo.
+
+## Noticias
+Actualidad de IT, IA y ciberseguridad con lectura propia.
+
+- [Gemini Robotics 2: el robot ya se mueve de los pies a los dedos](https://toniserrano.com/noticias/gemini-robotics-2-el-robot-ya-se-mueve-de-los-pies-a-los-ded.html)
+- [Anthropic lanza Opus 5: potencia de tope de gama a mitad de precio (y con más candados)](https://toniserrano.com/noticias/anthropic-lanza-opus-5-potencia-de-tope-de-gama-a-mitad-de-p.html)
+- [Kimi K3: el modelo chino que ha hecho temblar el Nasdaq (y las certezas de todos)](https://toniserrano.com/noticias/kimi-k3-el-modelo-chino-que-ha-hecho-temblar-el-nasdaq-y-las.html)
+- [La carrera de la IA ya no se libra solo en la frontera](https://toniserrano.com/noticias/la-carrera-de-la-ia-ya-no-se-libra-solo-en-la-frontera.html)
+- [GPT-5.6 sale de cuarentena: OpenAI lo libera y lanza "ChatGPT Work" para competir con Claude Cowork](https://toniserrano.com/noticias/gpt-5-6-sale-de-cuarentena-openai-lo-libera-y-lanza-chatgpt-.html)
+- [Ollama capta 65 millones de dólares: el open source también aprende a facturar](https://toniserrano.com/noticias/ollama-capta-65-millones-de-dolares-el-open-source-tambien-a.html)
+- [Claude Science: Anthropic ficha a un premio Nobel y lanza su apuesta seria por la IA científica](https://toniserrano.com/noticias/claude-science-anthropic-ficha-a-un-premio-nobel-y-lanza-su-.html)
+- [Anthropic reactiva Fable 5 tras el primer bloqueo gubernamental por exportación de IA](https://toniserrano.com/noticias/anthropic-reactiva-fable-5-tras-el-primer-bloqueo-gubernamen.html)
+- [Claude Sonnet 5: rendimiento de Opus a precio de Sonnet — y esto cambia el cálculo](https://toniserrano.com/noticias/claude-sonnet-5-rendimiento-de-opus-a-precio-de-sonnet-y-est.html)
+- [Google mete el "computer use" en Gemini 3.5 Flash: los agentes de escritorio ya son API](https://toniserrano.com/noticias/google-mete-el-computer-use-en-gemini-3-5-flash-los-agentes-.html)
+- [HP apuesta fuerte por OpenAI: ¿el PC corporativo ya no es solo hardware?](https://toniserrano.com/noticias/hp-apuesta-fuerte-por-openai-el-pc-corporativo-ya-no-es-solo.html)
+- [Agentes de IA: OpenAI hace su apuesta y la explica en voz alta](https://toniserrano.com/noticias/agentes-de-ia-openai-hace-su-apuesta-y-la-explica-en-voz-alt.html)
+- [Samsung despliega ChatGPT y Codex para sus empleados: ¿esto ya es el estándar corporativo?](https://toniserrano.com/noticias/samsung-despliega-chatgpt-y-codex-para-sus-empleados-esto-ya.html)
+
+## Opcional
+
+- [Sobre mí](https://toniserrano.com/sobre-mi/): trayectoria y forma de trabajar.
+- [Los agentes](https://toniserrano.com/agentes/): el sistema que sostiene esta web.
